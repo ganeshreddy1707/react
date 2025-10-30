@@ -4,9 +4,9 @@ export const Mediafiles = () =>{
     return <div>
         <p>media files</p>
         <img src={image1} alt="image" height={200} width={200}/>
-        <video controls>
+        {/* <video controls>
             <source src="{samplevideo}"/>
-        </video>
+        </video> */}
         <img src="pass photo.jpg" alt="" />
     </div>
 } 
